@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+.main {
+    background: #e7f5fc;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.conteudo{
+    font-size: 20px;
+    padding: 100px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.conteudo-texto{
+    margin: 50px;
+    padding: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.conteudo-foto{
+    margin: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.titulo{
+    margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paragrafo{
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.75)
 }
+
+.botoes{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-explorar{
+    margin: 10px;
+    background:rgb(106, 245, 42);
+    padding: 20px;
+    border-radius: 50px;
+    border: 0;
+    
+    border-radius: black;
+
+}
+
+.botao-explorar:hover{
+    background-color: rgb(83, 241, 10);
+    
+}
+
+.botao-criar{
+    margin: 10px;
+    background:rgb(106, 245, 42);
+    padding: 20px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.botao-criar:hover{
+    background-color: rgb(83, 241, 10);    
+}
+
+
+/* .app{
+    background: #d9f8f5;
+    
+    
+}
+
+.conteudo-app {
+    
+    margin-left: 120px;
+    padding: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25%;
+}
+
+.explorar {
+    background:rgb(106, 245, 42);
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    
+}
+
+.criar {
+    background:rgb(106, 245, 42);
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    margin-left: 20px;
+}
+
+.explorar:hover{
+    background: #1a8d03;
+}
+
+.criar:hover{
+    background: #1a8d03;
+}
+
+.livros {
+    margin-left: 500px;
+    margin-top: -200px;
+} */
